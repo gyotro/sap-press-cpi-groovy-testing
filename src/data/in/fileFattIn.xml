@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multimap:Messages xmlns:multimap="http://sap.com/xi/XI/SplitAndMerge">
+    <multimap:Message1>
+        <YY1_EInvoiceAPI>
+            <YY1_EInvoiceAPIType>
+                <PaymentMethodSales/>
+                <CustomerPurchaseOrderDateSales/>
+                <SalesDocument>60000009</SalesDocument>
+                <PurchaseOrderByCustomerSales/>
+            </YY1_EInvoiceAPIType>
+        </YY1_EInvoiceAPI>
+        <Fattura>
+            <Header>
+                <BillingDocument>90000407</BillingDocument>
+                <SDDocumentCategory>O</SDDocumentCategory>
+                <CreationDate>20200924000000000</CreationDate>
+                <CreationTime>1970-01-01T15:05:17.000</CreationTime>
+                <BillingDocumentDate>20200924000000000</BillingDocumentDate>
+                <SalesDocument>60000009</SalesDocument>
+                <TotalTaxAmount>11.00</TotalTaxAmount>
+                <TotalNetAmount>50.00</TotalNetAmount>
+                <TransactionCurrency>EUR</TransactionCurrency>
+                <BillingDocumentType>G2</BillingDocumentType>
+                <AccountingDocument>6011000002</AccountingDocument>
+                <CompanyCode>2310</CompanyCode>
+                <CompanyCodeName>Soft Strategy SpA</CompanyCodeName>
+                <CompanyCityName>Roma</CompanyCityName>
+                <CompanyCountry>IT</CompanyCountry>
+                <Currency>EUR</Currency>
+                <AddressID>22814</AddressID>
+                <CustomerPaymentTermsName>Pag. immediato senza detr.</CustomerPaymentTermsName>
+                <CustomerPaymentTerms>0001</CustomerPaymentTerms>
+                <Customer>1000010</Customer>
+                <CustomerName>Poste Italiane</CustomerName>
+                <AddressID_01>24390</AddressID_01>
+                <TaxNumber1>97103880585</TaxNumber1>
+                <TaxNumber2/>
+                <TaxNumber3/>
+                <TaxNumber4>IT41114601020</TaxNumber4>
+                <CustomerCountry>IT</CustomerCountry>
+                <CustomerCityName>Roma</CustomerCityName>
+                <CustomerPostalCode>00100</CustomerPostalCode>
+                <CustomerStreetName>Europa 175</CustomerStreetName>
+                <CustomerRegion>RM</CustomerRegion>
+                <VATRegistration>08840121001</VATRegistration>
+                <CompanyCap>00154</CompanyCap>
+                <CompanyAddress>Largo A. Fochetti, 30</CompanyAddress>
+            </Header>
+            <Item>
+                <BillingDocumentItem>000010</BillingDocumentItem>
+                <SalesDocumentItemCategory>G2W</SalesDocumentItemCategory>
+                <SalesDocumentItemType/>
+                <NetAmount>50.00</NetAmount>
+                <GrossAmount>0.00</GrossAmount>
+                <TaxAmount>11.00</TaxAmount>
+                <TaxCode>V2</TaxCode>
+                <BillingDocumentItemText>Addebiti a dipendenti</BillingDocumentItemText>
+                <BillingQuantityUnit>AU</BillingQuantityUnit>
+                <BillingQuantity>1.000</BillingQuantity>
+                <PriceElement>
+                    <PricingProcedureStep>910</PricingProcedureStep>
+                    <PricingProcedureCounter>001</PricingProcedureCounter>
+                    <ConditionType>DCD1</ConditionType>
+                    <ConditionBaseValue>61.000000000</ConditionBaseValue>
+                    <ConditionRateValue>0E-9</ConditionRateValue>
+                    <ConditionAmount>0.00</ConditionAmount>
+                    <ConditionInactiveReason/>
+                </PriceElement>
+                <PriceElement>
+                    <PricingProcedureStep>020</PricingProcedureStep>
+                    <PricingProcedureCounter>001</PricingProcedureCounter>
+                    <ConditionType>PPR0</ConditionType>
+                    <ConditionBaseValue>1.000000000</ConditionBaseValue>
+                    <ConditionRateValue>50.000000000</ConditionRateValue>
+                    <ConditionAmount>50.00</ConditionAmount>
+                    <ConditionInactiveReason/>
+                </PriceElement>
+                <PriceElement>
+                    <PricingProcedureStep>855</PricingProcedureStep>
+                    <PricingProcedureCounter>001</PricingProcedureCounter>
+                    <ConditionType>TTX1</ConditionType>
+                    <ConditionBaseValue>50.000000000</ConditionBaseValue>
+                    <ConditionRateValue>22.000000000</ConditionRateValue>
+                    <ConditionAmount>11.00</ConditionAmount>
+                    <ConditionInactiveReason/>
+                </PriceElement>
+            </Item>
+        </Fattura>
+    </multimap:Message1>
+</multimap:Messages>

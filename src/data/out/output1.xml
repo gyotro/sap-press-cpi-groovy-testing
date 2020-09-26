@@ -1,0 +1,16 @@
+<PurchaseOrder>
+  <rec:Header xmlns:rec='http://groovy.codehaus.org'>
+    <ID>ORD60001</ID>
+    <DocumentDate>2019-02-18</DocumentDate>
+  </rec:Header>
+  <Item>
+    <ItemNumber attr1='attributo1' attr2='attributo2'>010</ItemNumber>
+    <ProductCode>MT70001</ProductCode>
+    <Quantity>57</Quantity>
+  </Item>
+  <Item>
+    <ItemNumber attr1='attributo1' attr2='attributo2'>020</ItemNumber>
+    <ProductCode>MT70002</ProductCode>
+    <Quantity>37</Quantity>
+  </Item>
+</PurchaseOrder>
